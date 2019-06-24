@@ -3,8 +3,8 @@ import datetime
 import discord
 from time import sleep
 
-name = "emily"
-username = "lemon"
+name = "Gus"
+username = "Boris"
 days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 bot = ChatBot(
@@ -13,7 +13,7 @@ bot = ChatBot(
     logic_adapters=[
         'chatterbot.logic.BestMatch'
     ],
-    database_uri='sqlite:///emily.db'
+    database_uri='sqlite:///coldai.db'
 )
 
 def incomingreplace(string):
